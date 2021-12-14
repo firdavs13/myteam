@@ -35,8 +35,11 @@ img {
 /* HEADER */
 /* ------------ABOUT PAGE------------ */
 /* HERO */
+.hero{
+    margin-bottom: 120px;
+}
 .hero-desc {
-    max-width: 730px !important;
+
 
 }
 .line{
