@@ -33,3 +33,14 @@ img {
 
 
 /* HEADER */
+/* ------------ABOUT PAGE------------ */
+/* HERO */
+.hero-desc {
+    max-width: 730px !important;
+
+}
+.line{
+    background: #F67E7E;
+    width: 50px;
+    height: 4px;
+}
