@@ -13,7 +13,32 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="container"></div>
+       <div class="container">
+        <nav class="navbar header__navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand header__nav-logo" href="#">
+                  <img class="nav-logo-img" src="./images/myteam-logo.svg" alt="" width="160" height="40">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active nav-item-link" aria-current="page" href="#">home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active nav-item-link" aria-current="page" href="#">about</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <button class="btn btn-outline-light rounded-pill" type="submit">contact us</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+       </div>
     </header>
 
     <!-- MAIN -->

@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: "Arial", sans-serif;
+    font-family: 'Livvic';
     font-size: 16px;
     line-height: 1.5;
 }
@@ -101,3 +101,23 @@ img {
 
 
 /* HEADER */
+
+.header {
+    background-color: #014E56  !important;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.header__nav-logo {
+    width: 160px;
+    height: 40px;
+}
+
+.nav-item-link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF !important;
+}
