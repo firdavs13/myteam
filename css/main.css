@@ -101,23 +101,3 @@ img {
 
 
 /* HEADER */
-
-.header {
-    background-color: #014E56  !important;
-}
-
-.container-fluid {
-    padding: 0;
-}
-
-.header__nav-logo {
-    width: 160px;
-    height: 40px;
-}
-
-.nav-item-link {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF !important;
-}
