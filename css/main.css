@@ -604,8 +604,6 @@ img {
     color: #79C8C7;
 }
 
-.stories__card-group {}
-
 .stories__card {
     margin-bottom: 48px !important;
     padding-top: 36px;
@@ -623,8 +621,6 @@ img {
     text-align: center;
     color: #FFFFFF;
 }
-
-.stories__card-list {}
 
 .stories__card-name {
     margin-bottom: 2px;
@@ -698,7 +694,6 @@ img {
     .stories__card:first-child {
         margin-left: 0px !important;
     }
-    .stories__card-group {}
     .stories__card {
         margin-bottom: 0px !important;
         padding-top: 36px;
@@ -708,6 +703,46 @@ img {
         margin-bottom: 24px;
         font-size: 15px;
         line-height: 25px;
+    }
+}
+
+
+/* CALL SECTION */
+
+.contact-us {
+    padding: 83px 0;
+    background-color: #F67E7E;
+    background-image: url("/images/contact-us-bg.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.contact-us__heading {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #012F34;
+}
+
+.contact-us__button {
+    transition: all 0.3s;
+}
+
+
+/* contact-us responsive */
+
+@media only screen and (min-width: 768px) {
+    .contact-us {
+        padding: 76px 0;
+    }
+    .contact-us__heading {
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
     }
 }
 
