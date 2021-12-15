@@ -254,7 +254,11 @@ img {
     /* CONTACT */
 
     .contact {
+        position: relative;
         background-color: #014E56;
+        background-image: url("../images/contact-bg-1.png");
+        background-repeat: no-repeat;
+        background-position: left 0px top 200px;
     }
 
     .contact__wrapper {
@@ -262,6 +266,12 @@ img {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .contact__pace {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
     }
 
     .contact__left {
@@ -337,6 +347,7 @@ img {
         letter-spacing: -0.1px;
         color: #FFFFFF;
         opacity: 0.6;
+        cursor: pointer;
     }
 
 
@@ -349,12 +360,20 @@ img {
         background-color: #014E56;
     }
 
+    .form__input:focus {
+        border-bottom: 2px solid #F67E7E;
+    }
+
     .form__texarea {
         width: 100%;
         outline: none;
         border: none;
         border-bottom: 2px solid #FFFFFF;
         background-color: #014E56;
+    }
+
+    .form__texarea:focus {
+        border-bottom: 2px solid #F67E7E;
     }
 
     .form__btn {
