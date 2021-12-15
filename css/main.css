@@ -213,6 +213,7 @@ img {
             background-repeat: no-repeat;
             margin-top: 5px;
             padding: 15px 0px;
+            z-index: 1000;
         }
 
         .header__hamburger {
@@ -278,11 +279,9 @@ img {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
+        margin-right: 125px;
     }
 
-    .footer__between {
-        margin-left: 125px;
-    }
 
     .footer__words {
         font-weight: 600;
@@ -324,4 +323,95 @@ img {
         margin: 0;
         padding: 0;
         text-decoration: none;
+    }
+
+    .footer__between-words-mob {
+        display: none;
+    }
+
+
+    @media only screen and (max-width: 770px) {
+        .footer__wrapper {
+            position: relative;
+        }
+
+        .footer__left {
+            justify-content: start;
+        }
+
+        .footer__links {
+            position: absolute;
+            bottom: 55px;
+            left: 0px;
+        }
+
+        .footer__between {
+            margin-left: auto;
+        }
+
+        .footer__right-words {
+            display: none;
+        }
+
+
+        .footer__between-words-mob {
+            display: block;
+        }
+
+        .footer__words {
+            margin: 0px;
+            text-align: right;
+        }
+    }
+
+    @media only screen and (max-width: 580px) {
+        .footer__left {
+            margin-right: 0px;
+        }
+
+        .footer__links {
+            bottom: 40px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+
+        .footer__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer__right-words {
+            display: block;
+        }
+
+
+        .footer__between-words-mob {
+            display: none;
+        }
+
+        .footer__left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer__links {
+            position: static;
+            margin-bottom: 15px;
+        }
+
+        .footer__between {
+            margin: 0px auto 15px;
+        }
+
+        .footer__right {
+            align-items: center;
+            margin-left: 0px;
+        }
+
+        .footer__words {
+            text-align: center;
+        }
     }
