@@ -35,15 +35,93 @@ img {
 /* HEADER */
 /* ------------ABOUT PAGE------------ */
 /* HERO */
-.hero{
-    margin-bottom: 120px;
+.about-hero {
+    padding-top: 45px;
+    background: #014E56;
+    background-image: url(../images/about-hero-bg-element.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
-.hero-desc {
+.about-container {
+}
 
 
+.hero-hedading {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
 }
-.line{
+
+.line {
+    margin: 0;
+    margin-bottom: 40px;
     background: #F67E7E;
     width: 50px;
     height: 4px;
+}
+.hero-desc {
+    margin: 0;
+    margin-bottom: 120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+.directors {
+    padding-top: 140px;
+    background: #004047;
+
+}
+
+.directors-heading {
+    margin: 0;
+    margin-bottom: 64px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.card-box {
+    margin: -15px;
+}
+.card-items{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    max-width: 350px;
+    background: #012F34;
+    margin: 15px;
+    padding: 32px 24px 56px 24px;
+}
+.card-desc{
+    margin: 0;
+
+
+}
+.card-heading {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#79C8C7;
+}
+.card-img {
+
+
+}
+.card-click-icon{
+    position: absolute;
+    bottom: -30px;
+    left: 150px;
+
 }
